@@ -11,17 +11,17 @@
       "author": "@FoKit",
       "descs_html": ["用于JD1/JD2和BoxJS之间的数据同步"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/sync.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/sync.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/sync.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/sync.png"
       ],
       "scripts": [
         {
           "name": "JD1同步到BoxJS",
-          "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jd1_sync_box.js"
+          "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jd1_sync_box.js"
         },
         {
           "name": "JD2同步到BoxJS",
-          "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jd2_sync_box.js"
+          "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jd2_sync_box.js"
         }
       ],
       "keys": [
@@ -141,8 +141,8 @@
       "author": "@FoKit",
       "descs_html": ["自用工具"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/debug.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/debug.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/debug.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/debug.png"
       ],
       "keys": ["is_debug"],
       "settings": [
@@ -161,13 +161,13 @@
       "author": "@FoKit",
       "descs_html": ["捷停车签到"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jparking.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jparking.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jparking.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jparking.png"
       ],
       "scripts": [
         {
           "name": "捷停车签到",
-          "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jparking_sign.js"
+          "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jparking_sign.js"
         }
       ],
       "keys": ["jtc_userId", "jtc_taskNo"],
@@ -197,7 +197,7 @@
       "name": "新浪微博",
       "author": "@sunert",
       "descs_html": [
-        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js\">配置说明</a></h4>",
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/weibo_sign.js\">配置说明</a></h4>",
         "<br />",
         "<p>其中<font color='#FF0000',font-weight: bold>wb_nick</font>为账号昵称，无需另外获取，脚本运行可自动生成，wb_cookie为任务红包余额，获取后方可显示，可选，sy_token_wb为微博签到token，必选</p>"
       ],
@@ -205,7 +205,7 @@
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/weibo.png",
         "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/weibo.png"
       ],
-      "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weibo_sign.js",
+      "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/weibo_sign.js",
       "keys": ["sy_token_wb", "wb_cookie", "wb_nick"],
       "settings": [
         {
@@ -237,8 +237,8 @@
       "author": "@FoKit",
       "descs_html": ["用于解析京东活动数据"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/analyzing.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/analyzing.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/analyzing.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/analyzing.png"
       ],
       "keys": ["TG_BOT_TOKEN", "TG_USER_ID", "QUOTATION"],
       "settings": [
@@ -276,8 +276,8 @@
       "author": "@FoKit",
       "descs_html": ["用于自动抓取京东WSKEY"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jdjoy.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jdjoy.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jdjoy.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jdjoy.png"
       ],
       "keys": [
         "WSKEY_AUTO_UPLOAD",
@@ -324,8 +324,8 @@
       "author": "@FoKit",
       "descs_html": ["字符串替换工具"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/default.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/default.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/default.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/default.png"
       ],
       "keys": ["string_replace", "string_replace_all"],
       "settings": [
@@ -355,8 +355,8 @@
       "author": "@FoKit",
       "descs_html": ["南网在线Token"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/95598.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/95598.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/95598.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/95598.png"
       ],
       "keys": ["token_95598"],
       "settings": [
@@ -375,8 +375,8 @@
       "author": "@FoKit",
       "descs_html": ["交管12123数据"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/12123.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/12123.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/12123.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/12123.png"
       ],
       "keys": ["body_12123", "referer_12123"],
       "settings": [
@@ -404,8 +404,8 @@
       "author": "@FoKit",
       "descs_html": ["华为云服务 Cookie"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/huawei.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/huawei.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/huawei.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/huawei.png"
       ],
       "keys": ["huawei_cookie"],
       "settings": [
@@ -424,8 +424,8 @@
       "author": "@FoKit",
       "descs_html": ["中国电信 Cookie"],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/china_telecom.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/china_telecom.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/china_telecom.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/china_telecom.png"
       ],
       "keys": ["china_telecom_cookie", "china_telecom_login_url"],
       "settings": [
@@ -449,7 +449,7 @@
       "id": "feng.com",
       "name": "威锋论坛",
       "author": "@FoKit",
-      "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weifeng.js",
+      "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/weifeng.js",
       "descs_html": [""],
       "icons": [
         "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/feng.png",
@@ -484,11 +484,11 @@
       "id": "ThomasCook",
       "name": "托迈酷客",
       "author": "@FoKit",
-      "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/ThomasCook.js",
+      "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/ThomasCook.js",
       "descs_html": [""],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/ThomasCook.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/ThomasCook.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/ThomasCook.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/ThomasCook.png"
       ],
       "keys": ["ThomasCook_Cookie"],
       "settings": [
@@ -508,8 +508,8 @@
       "script": "",
       "descs_html": [""],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/iMaoTai.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/iMaoTai.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/iMaoTai.png"
       ],
       "keys": [
         "MT_TOKENS",
@@ -589,8 +589,8 @@
       "script": "",
       "descs_html": [""],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/mi_sport.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/mi_sport.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/mi_sport.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/mi_sport.png"
       ],
       "keys": ["xmUsers", "xmPasswords", "xmMinStep", "xmMaxStep"],
       "settings": [
@@ -639,8 +639,8 @@
         "用于京东、京喜和京喜特价京粉转链，支持慢慢买、购物党和什么值得买跳转比价。"
       ],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jingfen.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jingfen.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jingfen.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jingfen.png"
       ],
       "keys": [
         "jd_unionId",
@@ -755,11 +755,11 @@
       "id": "jhsh",
       "name": "建行生活",
       "author": "@FoKit",
-      "script": "https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js",
+      "script": "https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js",
       "descs_html": [""],
       "icons": [
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png",
-        "https://raw.githubusercontent.com/FoKit/Scripts/main/images/jhsh.png"
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jhsh.png",
+        "https://raw.githubusercontent.com/zy6zy/plagiarized/main/images/jhsh.png"
       ],
       "keys": ["JHSH_BODY", "JHSH_GIFT"],
       "settings": [
