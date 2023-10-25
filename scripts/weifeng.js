@@ -4,16 +4,16 @@
 更新时间：2022-11-15
 脚本作者：@小白脸
 使用方法：通过BoxJs配置威锋论坛账号和密码，脚本支持Quantumult X、Surge、Loon和青龙Node.js环境运行。环境变量：feng_username、feng_password
-BoxJs 订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+BoxJs 订阅：https://raw.githubusercontent.com/zy6zy/plagiarized/main/boxjs/fokit.boxjs.json
 
 # Surge
 [Script]
 # > 威锋论坛签到+任务
-威锋论坛 = type=cron,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weifeng.js,cronexp=0 8 * * *,wake-system=1,timeout=15
+威锋论坛 = type=cron,script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/weifeng.js,cronexp=0 8 * * *,wake-system=1,timeout=15
 
 # Quantumult X
 [task_local]
-0 8 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/weifeng.js, tag=威锋论坛, enabled=true
+0 8 * * * https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/weifeng.js, tag=威锋论坛, enabled=true
 
 */
 

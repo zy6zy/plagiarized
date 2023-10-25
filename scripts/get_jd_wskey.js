@@ -3,26 +3,26 @@
 更新时间：2023-10-12
 使用方法：划掉后台重新打开 京东APP 即可自动抓取WSKEY。
 注意事项：脚本抓取的WSKEY默认自动提交到服务器（自动上车），可通过BoxJs设置关闭自动提交功能。
-重写订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_jd_wskey.sgmodule
-BoxJs订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+重写订阅：https://raw.githubusercontent.com/zy6zy/plagiarized/main/rewrite/get_jd_wskey.sgmodule
+BoxJs订阅：https://raw.githubusercontent.com/zy6zy/plagiarized/main/boxjs/fokit.boxjs.json
 
 ================Quantumult X配置=================
 [rewrite_local]
-^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo url script-response-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo url script-response-body https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_jd_wskey.js
 
 [MITM]
 hostname = api.m.jd.com
 
 ====================Surge配置====================
 [Script]
-京东 WSKEY = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js,script-update-interval=0
+京东 WSKEY = type=http-response,pattern=^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_jd_wskey.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
 
 ====================Loon配置=====================
 [Script]
-http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo tag=京东 WSKEY, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_jd_wskey.js,requires-body=1
+http-response ^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=newUserInfo tag=京东 WSKEY, script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_jd_wskey.js,requires-body=1
 
 [MITM]
 hostname = api.m.jd.com

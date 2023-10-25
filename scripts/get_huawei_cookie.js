@@ -1,21 +1,21 @@
 /*
 脚本名称：华为云服务 Cookie
 更新时间：2022-11-10
-重写订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_huawei_cookie.sgmodule
-BoxJs 订阅：https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
+重写订阅：https://raw.githubusercontent.com/zy6zy/plagiarized/main/rewrite/get_huawei_cookie.sgmodule
+BoxJs 订阅：https://raw.githubusercontent.com/zy6zy/plagiarized/main/boxjs/fokit.boxjs.json
 ================Quantumult X配置=================
 [rewrite_local]
-^https:\/\/cloud.huawei.com/wapFindPhone url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_huawei_cookie.js
+^https:\/\/cloud.huawei.com/wapFindPhone url script-request-header https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_huawei_cookie.js
 [MITM]
 hostname = cloud.huawei.com
 ====================Surge配置====================
 [Script]
-华为云服务 Cookie = type=http-request,pattern=^https:\/\/cloud.huawei.com/wapFindPhone,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_huawei_cookie.js,script-update-interval=0
+华为云服务 Cookie = type=http-request,pattern=^https:\/\/cloud.huawei.com/wapFindPhone,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_huawei_cookie.js,script-update-interval=0
 [MITM]
 hostname = %APPEND% cloud.huawei.com
 ====================Loon配置=====================
 [Script]
-http-request ^https:\/\/cloud.huawei.com/wapFindPhone tag=华为云服务 Cookie, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_huawei_cookie.js,requires-body=1
+http-request ^https:\/\/cloud.huawei.com/wapFindPhone tag=华为云服务 Cookie, script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/get_huawei_cookie.js,requires-body=1
 [MITM]
 hostname = cloud.huawei.com
 */

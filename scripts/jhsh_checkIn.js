@@ -2,13 +2,13 @@
  * 脚本名称：建行生活
  * 活动入口：建行生活APP -> 首页 -> 会员有礼 -> 签到
  * 脚本说明：连续签到领优惠券礼包（打车、外卖优惠券），配置重写手动签到一次即可获取签到数据，默认领取外卖券，可在 BoxJS 配置奖品。兼容 Node.js 环境，变量名称 JHSH_BODY、JHSH_GIFT，多账号分割符 "|"。
- * 仓库地址：https://github.com/FoKit/Scripts
+ * 仓库地址：https://github.com/zy6zy/plagiarized
  * 更新时间：2023-10-15
 /*
 --------------- BoxJS & 重写模块 --------------
 
-https://raw.githubusercontent.com/FoKit/Scripts/main/boxjs/fokit.boxjs.json
-https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_jhsh_cookie.sgmodule
+https://raw.githubusercontent.com/zy6zy/plagiarized/main/boxjs/fokit.boxjs.json
+https://raw.githubusercontent.com/zy6zy/plagiarized/main/rewrite/get_jhsh_cookie.sgmodule
 
 ------------------ Surge 配置 -----------------
 
@@ -16,9 +16,9 @@ https://raw.githubusercontent.com/FoKit/Scripts/main/rewrite/get_jhsh_cookie.sgm
 hostname = yunbusiness.ccb.com
 
 [Script]
-建行数据 = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+建行数据 = type=http-request,pattern=^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js
 
-建行生活 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,script-update-interval=0
+建行生活 = type=cron,cronexp=17 7 * * *,timeout=60,script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js,script-update-interval=0
 
 ------------------ Loon 配置 ------------------
 
@@ -26,9 +26,9 @@ hostname = yunbusiness.ccb.com
 hostname = yunbusiness.ccb.com
 
 [Script]
-http-request ^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038) tag=建行数据, script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,requires-body=1
+http-request ^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038) tag=建行数据, script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js,requires-body=1
 
-cron "17 7 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js,tag = 建行生活,enable=true
+cron "17 7 * * *" script-path=https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js,tag = 建行生活,enable=true
 
 -------------- Quantumult X 配置 --------------
 
@@ -36,10 +36,10 @@ cron "17 7 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/ma
 hostname = yunbusiness.ccb.com
 
 [rewrite_local]
-^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038) url script-request-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+^https:\/\/yunbusiness\.ccb\.com\/clp_coupon\/txCtrl\?txcode=(A3341A040|A3341A038) url script-request-body https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js
 
 [task_local]
-17 7 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js, tag=建行生活, enabled=true
+17 7 * * * https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js, tag=建行生活, enabled=true
 
 ------------------ Stash 配置 -----------------
 
@@ -60,7 +60,7 @@ http:
 
 script-providers:
   建行生活:
-    url: https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jhsh_checkIn.js
+    url: https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jhsh_checkIn.js
     interval: 86400
 
 */

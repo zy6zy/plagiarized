@@ -7,7 +7,7 @@
 hostname = wxydt.yidianting.xin
 
 [rewrite_local]
-^https:\/\/wxydt\.yidianting\.xin\/weixin\/html\/uiHtml\.do\?act=car&token=&code= url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/yidianting.js
+^https:\/\/wxydt\.yidianting\.xin\/weixin\/html\/uiHtml\.do\?act=car&token=&code= url script-request-header https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/yidianting.js
 ====================================================================================================
 */
 

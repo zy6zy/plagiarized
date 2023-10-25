@@ -4,8 +4,8 @@
 使用方法：上传存档 -> 下载存档
 
 [rewrite_local]
-^https:\/\/api\.gzgame99\.cn\/zc\/user\/setGameData url script-request-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/zbt.js
-^https:\/\/api\.gzgame99\.cn\/zc\/user\/getGameData url script-response-body https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/zbt.js
+^https:\/\/api\.gzgame99\.cn\/zc\/user\/setGameData url script-request-body https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/zbt.js
+^https:\/\/api\.gzgame99\.cn\/zc\/user\/getGameData url script-response-body https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/zbt.js
 
 [MITM]
 hostname = api.gzgame99.cn

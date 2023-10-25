@@ -1,6 +1,6 @@
 /*
 JD_COOKIE 同步工具，JD1 ---> BOXJS
-40 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jd1_sync_box.js
+40 * * * https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jd1_sync_box.js
 */
 
 const $ = new API('ql', true);
@@ -22,7 +22,7 @@ function getUsername(ck) {
 
 async function getScriptUrl() {
   const response = await $.http.get({
-    url: 'https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/jd1_api.js',
+    url: 'https://raw.githubusercontent.com/zy6zy/plagiarized/main/scripts/jd1_api.js',
   })
   return response.body
 }
